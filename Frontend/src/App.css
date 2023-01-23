@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: url("./images/cursor.png"), auto;
+}
+
+.menuBurger {
+    width: 3vmax;
+    height: 4.5vmax !important;
+    position: fixed;
+    top: 2vmax;
+    left: 2vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1vmax;
+    overflow: hidden;
+    z-index: 1000
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.greenColor {
+    color: green !important;
+}
+
+.redColor {
+    color: red !important;
+}
